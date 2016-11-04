@@ -55,12 +55,14 @@ div.reviews{
 }
 #percentuale {
     position: absolute;
-    margin: auto;
+    margin-top: 6px;
 }
 div.column {
-    float: left;
-    width: 47%;
-    margin: 1%;
+    /*float: left;*/
+    /*display: inline-block;*/
+    display: inline-table;
+    max-width: 47%;
+    margin: 2% 1% 2% 1%;
 }
 div.citazione{
     font-weight: bold;
